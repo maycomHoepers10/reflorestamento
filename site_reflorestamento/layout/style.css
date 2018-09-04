@@ -1,0 +1,92 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #f2f2f2;
+}
+    header{
+        height: 220px;
+        background-image: url('../image_header.png');
+        background-repeat:  no-repeat;
+        background-size: 100% 115%;
+        background-position: bottom; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0.85;
+    }
+
+        header p{
+            font-size: 80px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: whitesmoke;
+            text-shadow: 2px 3px rgb(14, 46, 26);
+            font-weight: bold;
+        }
+
+    footer{
+        width: 100%;
+        height: 25px;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        justify-content: center; 
+        background-color: #339933;
+        border-top: 1px solid #33ff77;
+    }
+
+    footer span{
+        text-align: center;
+    }
+
+    .menu{
+        width: 100%;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        background-color:  #1aff8c;
+        box-shadow: 1px 2px 8px gray;
+    }
+
+        .menu a{
+            width: 200px;
+            padding-top: 3px;
+            margin-left: 2px;
+            text-align: center;
+            font-size: 17px;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #267326;
+            
+        }
+
+        .menu a:hover{
+            color: black;
+        }
+    
+    .container_news{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 350px;
+    }
+
+        .container_news div{
+            margin-left: 25px;
+            width: 280px;
+            max-height: 320px;
+            /*background-color: #79d279;*/
+
+            border-radius: 16px;
+            box-shadow: 5px 5px 10px #339933;
+        }
+
+        .title_news{
+            text-align: center;
+        }
+
+        .content_news{
+            text-justify: auto;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
